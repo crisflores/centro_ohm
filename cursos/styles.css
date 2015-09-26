@@ -1,0 +1,120 @@
+﻿
+@font-face
+{
+   font-family: "digital";
+   src: url("fuentefancy.eot");
+   src: url("fuentefancy.eot?#amocristalab") format("embedded-opentype"),
+        url("fuentefancy.woff") format("woff"),
+        url("fuentefancy.ttf") format("truetype"),
+        url("fuentefancy.svg#IDdelafuente") format("svg");
+}
+
+
+#contenedor {
+margin-top: 0px;
+margin-right: auto;
+margin-bottom: 0px;
+margin-left: auto;
+width: 55em;
+}
+
+#header {
+    height:7em;
+    width: 55em;
+    padding-top: 2em;
+    border: 0em;
+    margin-bottom: 0.8em;
+    background-color:orange;
+    background-image: URL("encabezado.jpg");
+    color:white;
+    text-align:left;
+    border-radius: 1.5em 1.5em 0 0;
+  
+}
+#nav {
+    height:em;
+    width: 12em;
+    padding:0.5em; 
+    border: 0em;
+    margin: 0em;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+    line-height:2em;
+    background-color:;
+    float:left;
+}
+
+#section {
+  top:;
+    height:50em;
+    width: 50em;
+    padding:0em; 	
+    border: 0em;	
+    margin: px ;
+    margin-bottom: 0.5em;
+    background-color:#6600FF;
+    float:left;
+}
+
+
+#footer {
+    height: 1.5em;
+    width: 54em;
+    padding: 0.5em; 
+    border-radius: 0 0 1.5em 1.5em;    
+    border: 0em;	
+    margin: 0em;
+    background-color:orange;
+    color:white;
+    clear:both;
+    text-align:center;
+}
+
+
+ul#menu{
+    padding : 0em;    
+    margin-top: 6em;
+    width: 12em;
+    height: 19.5em;
+    border: 0em; 
+    list-style-type: none;
+}
+
+ul#menu li a {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+
+    display: block;
+    padding: 0.5em 0.5em;
+    border-radius: 6em 0.5em  ;
+
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+}
+
+h1#encabezado {
+    padding:0em; 	
+    border: 0em;
+    margin: 0em;
+    font-size: 4em;
+}
+
+iframe {
+	top:20px;
+	margin:100px;
+    background-color: white;
+}
+
+body {
+ 
+    font-family : arial;
+    background-image: url("fondo2.jpg");
+    background-color : ;
+}
+
+.subtitulo{
+    display : none;
+}
