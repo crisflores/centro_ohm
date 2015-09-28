@@ -11,26 +11,14 @@
 
 
 #contenedor {
-margin-top: 0px;
+margin-top: 100px;
 margin-right: auto;
 margin-bottom: 0px;
 margin-left: auto;
 width: 55em;
 }
 
-#header {
-    height:7em;
-    width: 55em;
-    padding-top: 2em;
-    border: 0em;
-    margin-bottom: 0.8em;
-    background-color:orange;
-    background-image: URL("encabezado.jpg");
-    color:white;
-    text-align:left;
-    border-radius: 1.5em 1.5em 0 0;
-  
-}
+
 #nav {
     height:em;
     width: 12em;
@@ -45,15 +33,15 @@ width: 55em;
 }
 
 #section {
-  top:;
-    height:50em;
-    width: 50em;
+	margin-left:200px;
+    height:30em;
+    width: em;
     padding:0em; 	
     border: 0em;	
-    margin: px ;
-    margin-bottom: 0.5em;
+  	margin-bottom: 0.5em;
     background-color:#6600FF;
-    float:left;
+    float:center;
+	text-align:center;
 }
 
 
@@ -73,7 +61,7 @@ width: 55em;
 
 ul#menu{
     padding : 0em;    
-    margin-top: 6em;
+    margin-top: 0em;
     width: 12em;
     height: 19.5em;
     border: 0em; 
@@ -103,8 +91,6 @@ h1#encabezado {
 }
 
 iframe {
-	top:20px;
-	margin:100px;
     background-color: white;
 }
 
