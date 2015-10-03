@@ -1,1 +1,0 @@
-# centro_ohm
