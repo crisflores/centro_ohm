@@ -4957,13 +4957,12 @@ a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
+  padding-left: 15px;
+  padding-left: 15px
+  box-shadow:9px 5px 19px  -5px rgba(0,0,0,0.49);
   color: inherit;
-  background-color: #eee;
-}
-.jumbotron h1,
-.jumbotron .h1 {
-  color: inherit;
-}
+  background-color: white;
+  border-radius: 6px;
 .jumbotron p {
   margin-bottom: 15px;
   font-size: 21px;
