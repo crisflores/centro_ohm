@@ -9,10 +9,8 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-
 body {
   margin: 0;
-  
 }
 article,
 aside,
@@ -1539,7 +1537,7 @@ samp {
 code {
   padding: 2px 4px;
   font-size: 90%;
-  color: #c7254e;
+  color: #0063B1;
   background-color: #f9f2f4;
   border-radius: 4px;
 }
@@ -1606,7 +1604,6 @@ pre code {
   }
 }
 .container-fluid {
-	
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -4590,11 +4587,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
+  background-color: #00213B;
   border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
-  color: #9d9d9d;
+  color: #FFF;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
@@ -4616,7 +4613,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #080808;
+  background-color: #0063B1;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -4642,7 +4639,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
   color: #fff;
-  background-color: #080808;
+  background-color: #0063B1;
 }
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
@@ -4957,14 +4954,11 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-	padding-right: 15px;
-    padding-left: 15px;
-    border-radius: 6px;
-    box-shadow: 9px 5px 19px -5px rgba(0,0,0,0.49);
-  
- 
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
   color: inherit;
-  background-color: white;
+  background-color: #eee;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -6420,6 +6414,7 @@ button.close {
   background-color: #fff;
 }
 .carousel-caption {
+  background-color: rgba(0, 43, 76, 0.9);
   position: absolute;
   right: 15%;
   bottom: 20px;
