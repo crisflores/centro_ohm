@@ -30,8 +30,8 @@
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
   </head>
-<!-- NAVBAR
-================================================== -->
+
+<!-- NAVBAR INICIO ================================================== -->
   <body>
     <div class="navbar-wrapper">
       <div class="container">
@@ -46,13 +46,22 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html">Instituto Tecnico OHM</a>
+              <a class="navbar-brand" href="#">Instituto Tecnico OHM &#8486 </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="#about">Nosotros</a></li>
-                <li><a href="#contact">Contacto</a></li>
+                <li><a href="index.html#historia">Historia</a></li>
+                <li><a href="index.html#somos">Quienes Somos</a></li>
+                <li><a href="index.html#contact">Contacto</a></li>     
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galeria <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="galcursos.html">Cursos</a></li>
+                    <li><a href="galeventos.html">Eventos</a></li>
+                  </ul>
+                </li>
+
                 <li class="dropdown active">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cursos <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -60,13 +69,10 @@
                     <li class="active"><a href="electromecanica.html">Electromec&aacute;nica</a></li>
                     <li><a href="informatica.html">Inform&aacute;tica</a></li>
                     <li><a href="administracion.html">Administraci&oacute;n</a></li>
-                    <li><a href="#adistancia">Educaci&oacute;n a Distancia</a></li>
-                    <!--<li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>-->
+                    <li><a href="adistancia.html">Educaci&oacute;n a Distancia</a></li>
                   </ul>
                 </li>
+                
               </ul>
             </div>
           </div>
@@ -74,6 +80,7 @@
 
       </div>
     </div>
+<!-- NAVBAR FIN ================================================== -->
 
 
     <!-- Carousel
@@ -202,14 +209,23 @@ Estudio descriptivo y funcional del sistema con nuevas herramientas.
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
-
+</div>
 
       <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-
+ 
+<!--BARRA DE ABAJO INICIO       -->
+<div id="footer" class="navbar-inverse navbar-fixed-bottom">
+  <div class="container">
+    <div class="navbar-bottom">
+      <p class="navbar-brand">
+        <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Av. Hipolito Yrigoyen 4539 1º Piso. Lanús Oeste. 
+        <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> 4241-6902 / 8043
+      </p>
+      <p class="navbar-brand pull-right"><a href="#">Volver arriba</a></p>
+    </div>
+  </div>
+</div>
+ 
     </div><!-- /.container -->
 
 
