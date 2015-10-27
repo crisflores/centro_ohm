@@ -26,6 +26,7 @@ nav,
 section,
 summary {
   display: block;
+  background-color:blue;
 }
 audio,
 canvas,
@@ -4491,8 +4492,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #00213B;
+  border-color: #e7e7e7;  
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -4954,11 +4955,14 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+	padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 6px;
+    box-shadow: 9px 5px 19px -5px rgba(0,0,0,0.49);
+  
+ 
   color: inherit;
-  background-color: #eee;
+  background-color: white;
 }
 .jumbotron h1,
 .jumbotron .h1 {
